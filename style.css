@@ -1,0 +1,382 @@
+body
+{
+    background-color: red;
+    background-image: url(ocean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#main
+{
+    
+    height: 40em;
+    width: 65em;
+    background-color: blanchedalmond;
+    margin-top: 4em;
+    margin-left: 7em;
+    margin-right: 2em;
+    margin-bottom: 4em;
+    border-radius: 2em;
+   
+}
+
+#header
+{
+    display: flex;
+    width: 65em;
+    height: 4em;
+    flex-direction: row;
+   
+}
+
+#lay
+{
+    width: 20em;
+    height: 4em;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+#main #header #lay p
+{
+    text-transform: uppercase;
+    color: greenyellow;
+    font-family: fantasy;
+    font-size: 22px;
+    margin-left: 0.5em;
+}
+
+#layout
+{
+    width: 45em;
+    height: 4em;
+    background-color:burlywood;
+}
+
+#main #header #layout ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    text-transform:uppercase;
+    list-style: none;
+    font-size:20px;
+    
+}
+
+#main #header #layout ul li a
+{
+    text-decoration: none;
+}
+
+
+#section
+{
+    width: 65em;
+    height: 36em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: row;
+ 
+ 
+}
+
+.section1
+{
+    height: 30em;
+    width: 30em;
+    flex-direction: column;
+    border-radius: 1em;
+    display: flex;
+    margin-left: 1em;
+    
+}
+
+.section2 img
+{
+    height: 32em;
+    width: 30em;
+    border-radius: 2em;
+    margin-top: 2em;
+    margin-left: 1em;
+    background-color: darkkhaki;
+    align-items: start;
+   
+}
+
+#main #section .p1
+{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    margin-top: 6.5em;
+    text-align:start;
+    margin-left: 3em;
+    background-color: rgb(255, 203, 203);
+}
+
+#main #section .p2
+{
+    text-transform: uppercase;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin-left: 2em;
+    text-align: center;
+    background-color: rgb(255, 203, 203);
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+#main #section  .p2 em
+{
+    font-weight: 900;
+    color: chartreuse;
+    font-style: italic;
+}
+
+#main #section  ul
+{
+    background-color: red;
+    font-size: 20px;
+    color: blue;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 7em;
+    height: 2em;
+    margin-top: 2em;
+    width: 7em;
+    list-style: none;
+   
+}
+
+
+#main #section  ul li a
+{
+  text-decoration: none;
+}
+#main #section .section2 .profile
+{
+    height: 18em;
+    width: 18em;
+    border-radius: 20em;
+    margin-left: 7em;
+    margin-top: 6em;
+    background-color: aliceblue;
+   
+}
+
+
+#main #header #lay img
+{
+    height: 4em;
+    width: 4em;
+    border-radius: 4em;
+    margin-left: 0.25em;
+}
+
+#mainsub
+{
+    height: 40em;
+    width: 65em;
+    background-color: blanchedalmond;
+    margin-left: 7em;
+    margin-right: 2em;
+    margin-bottom: 4em;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionsub
+{
+    width: 65em;
+    height: 12em;
+   
+}
+
+#mainsub .sectionsub .h1
+{
+    text-transform:uppercase;
+    font-family: fantasy;
+    font-size: 40px;
+    text-align: center;
+    color: greenyellow;
+  
+
+}
+#mainsub .sectionsu .h1
+{
+    text-transform:uppercase;
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+    color: greenyellow;
+  
+
+}
+
+#mainsub .sectionsub .h2
+{
+   margin-left: 1em;
+   text-transform: uppercase;
+   text-decoration:underline;
+}
+
+#mainsub .sectionsub .p2
+{
+    margin-left: 3em;
+    text-transform: capitalize;
+    color: yellowgreen;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+#mainsub .sectionsub1
+{
+    display: flex;
+    justify-content: end;
+    height: 13em;
+    width: 25em;
+    margin-top: 10em;
+    margin-left: 35em;
+    border-radius: 1em;
+}
+
+#mainsub .sectionsub .side
+{
+    margin-left: 25em;
+    margin-top: 7em;
+    height: 15em;
+    width: 20em;
+    text-transform: capitalize;
+    color: yellowgreen;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+}
+#mainsub .sectionsub ul
+{
+    text-transform: capitalize;
+    font-size:18px;
+    font-weight: 100;
+    color: yellowgreen;
+    margin-left: 5em;
+}
+
+#mainsub .sectionsub11
+{
+    
+    height: 12em;
+    width: 25em;
+}
+
+#mainsub .sectionsub .contacts
+{
+    margin-left: 3em;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#mainsub .sectionsub .location
+{
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    margin-left: 1em;
+}
+
+#pictures
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+    border-radius: 2em;
+    border-radius: 2em;
+    justify-content: space-evenly;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 20px;
+    grid-auto-flow: dense;
+}
+
+#pictures .pics img
+{
+  display: flex;
+  flex-direction: row;
+  height: 20em;
+  width: 20em ;
+  background-color: blue;
+  margin-top: 5em;
+
+}
+
+.p1
+{
+   text-transform: uppercase;
+   text-align: center;
+   color: yellowgreen;
+   font-size: 25px;
+   font-weight: bolder;
+   text-decoration: underline;
+}
+#layou
+{
+    width: 65em;
+    height: 4em;
+    background-color:burlywood;
+}
+
+
+#mainsub #layou ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    text-transform:uppercase;
+    list-style: none;
+    font-size:15px;
+    
+    
+}
+
+#mainsub #layou ul li a
+{
+    text-decoration: none;
+}
+
+.portfolio 
+{   
+    height: 45em;
+    width: 75em;
+    background-color: blanchedalmond;
+    margin-top: 4em;
+    margin-left: 8em;
+    margin-right: 2em;
+    margin-bottom: 4em;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.portfolio #mainsub #layo ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    text-transform:uppercase;
+    list-style: none;
+    font-size:15px;
+}
+
+.portfolio #mainsub #layo ul li a
+{
+    text-decoration: none;
+}
